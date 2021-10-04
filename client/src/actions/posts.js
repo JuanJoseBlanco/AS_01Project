@@ -25,8 +25,11 @@ export const updatePost = (id, post) => async (dispatch) => {
   try {
     const { data } = await api.updatePost(id, post);
 
-    dispatch({ type: UPDATE, payload: data });
+    if(data != undefined){
+      dispatch({ type: UPDATE, payload: data });
+    }
   } catch (error) {
+    console.log("Entrando");
     console.log(error);
   }
 };
@@ -45,9 +48,11 @@ export const likePost = (id) => async (dispatch) => {
 
 export const deletePost = (id) => async (dispatch) => {
   try {
+    console.log(id);
     await await api.deletePost(id);
 
     dispatch({ type: DELETE, payload: id });
+    alert("La memoria se ha eliminado con éxito")
   } catch (error) {
     console.log(error);
   }
