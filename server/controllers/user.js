@@ -1,26 +1,39 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
+import { writeLogs } from "../utilities/logs.js";
 
 import UserModal from "../models/user.js";
 
 const secret = 'test';
 
+
+
 export const signin = async (req, res) => {
   const { email, password } = req.body;
 
   try {
+    let currentTime = new Date();
+    let formatTime = currentTime.toLocaleDateString() +' ' +currentTime.toLocaleTimeString()
+
     const oldUser = await UserModal.findOne({ email });
 
-    if (!oldUser) return res.status(404).json({ message: "El usuario no existe" });
+    if (!oldUser){
+      writeLogs(formatTime, 'Se está intentando ingresar al sistema con un correo no registrado en la base de datos')
+      return res.status(404).json({ message: "El usuario no existe. Intenta con un usuario existente o regístrate en el sistema" });
+    } 
 
     const isPasswordCorrect = await bcrypt.compare(password, oldUser.password);
 
-    if (!isPasswordCorrect) return res.status(400).json({ message: "Credenciales invalidas" });
+    if (!isPasswordCorrect){
+      writeLogs(formatTime, 'El usuario ' +email +' está intentando ingresar al sistema con credenciales inválidas')
+      return res.status(400).json({ message: "Credenciales invalidas. Inténtalo de nuevo" });
+    }
 
     const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, secret, { expiresIn: "1h" });
 
     res.status(200).json({ result: oldUser, token });
   } catch (err) {
+    writeLogs(formatTime, 'Algo salió mal en el inicio de sesión')
     res.status(500).json({ message: "Algo salió mal" });
   }
 };

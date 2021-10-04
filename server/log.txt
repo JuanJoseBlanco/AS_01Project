@@ -1,0 +1,3 @@
+3/10/2021 10:47:31 p. m.	El usuario fabian@mail.com está intentando ingresar al sistema con credenciales inválidas
+3/10/2021 10:47:40 p. m.	Se está intentando ingresar al sistema con un correo no registrado en la base de datos
+3/10/2021 10:47:45 p. m.	Se está intentando ingresar al sistema con un correo no registrado en la base de datos

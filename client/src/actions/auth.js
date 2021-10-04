@@ -5,12 +5,14 @@ export const signin = (formData, router) => async (dispatch) => {
   try {
     const {data} = await api.signIn(formData);
 
-
+    console.log(data);
     dispatch({ type: AUTH, data });
 
     router.push('/');
   } catch (error) {
-    console.log(error);
+    console.log("Entra en error");
+    console.log(error.response.data.message);
+    alert(error.response.data.message)
   }
 };
 
