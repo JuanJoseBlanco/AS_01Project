@@ -18,3 +18,4 @@ export const deletePost = (id) => API.delete(`/posts/${id}`);
 
 export const signIn = (formData) => API.post('/user/signin', formData);
 export const signUp = (formData) => API.post('/user/signup', formData).then((res) => { if (res.data.statusCode === '001') { alert(res.data.message) } });
+export const logOut = (user) => API.get(`/user/logout/${user}`);

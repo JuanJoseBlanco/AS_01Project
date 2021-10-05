@@ -12,28 +12,26 @@ export const signin = async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    let currentTime = new Date();
-    let formatTime = currentTime.toLocaleDateString() +' ' +currentTime.toLocaleTimeString()
 
     const oldUser = await UserModal.findOne({ email });
 
     if (!oldUser){
-      writeLogs(formatTime, 'Se está intentando ingresar al sistema con un correo no registrado en la base de datos')
+      writeLogs(new Date(), 'Se está intentando ingresar al sistema con un correo no registrado en la base de datos')
       return res.status(404).json({ message: "El usuario no existe. Intenta con un usuario existente o regístrate en el sistema" });
     } 
 
     const isPasswordCorrect = await bcrypt.compare(password, oldUser.password);
 
     if (!isPasswordCorrect){
-      writeLogs(formatTime, 'El usuario ' +email +' está intentando ingresar al sistema con credenciales inválidas')
+      writeLogs(new Date(), 'El usuario ' +email +' está intentando ingresar al sistema con credenciales inválidas')
       return res.status(400).json({ message: "Credenciales invalidas. Inténtalo de nuevo" });
     }
 
     const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, secret, { expiresIn: "1h" });
-
+    writeLogs(new Date(), `El usuario ${oldUser.name} ha iniciado sesión en el sistema`);
     res.status(200).json({ result: oldUser, token });
   } catch (err) {
-    writeLogs(formatTime, 'Algo salió mal en el inicio de sesión')
+    writeLogs(new Date(), 'Algo salió mal en el inicio de sesión')
     res.status(500).json({ message: "Algo salió mal" });
   }
 };
@@ -52,6 +50,7 @@ export const signup = async (req, res) => {
       const result = await UserModal.create({ email, password: hashedPassword, name: `${firstName} ${lastName}` });
       const token = jwt.sign({ email: result.email, id: result._id }, secret, { expiresIn: "1h" });
 
+      writeLogs(new Date(), `El usuario ${firstName} ${lastName} se ha registrado en el sistema`);
       res.status(201).json({ result, token });
     } else {
       return res.json({ statusCode: '001', message: "La contraseña no cumple con los requisitos requeridos" })
@@ -62,4 +61,7 @@ export const signup = async (req, res) => {
   }
 }
 
-
+export const logout = (req, res) => {
+  writeLogs(new Date(), `El usuario ${req.params.user} ha cerrado sesión`);
+  res.status(201)
+}

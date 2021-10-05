@@ -1,3 +1,17 @@
-3/10/2021 10:47:31 p. m.	El usuario fabian@mail.com está intentando ingresar al sistema con credenciales inválidas
-3/10/2021 10:47:40 p. m.	Se está intentando ingresar al sistema con un correo no registrado en la base de datos
-3/10/2021 10:47:45 p. m.	Se está intentando ingresar al sistema con un correo no registrado en la base de datos
+5/10/2021 11:55:33 a. m.	El usuario fabian Alejandro ha cerrado sesión
+5/10/2021 11:56:01 a. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
+5/10/2021 11:58:25 a. m.	El usuario fabian Alejandro ha cerrado sesión
+5/10/2021 11:59:21 a. m.	El usuario Mochilero Americano se ha registrado en el sistema
+5/10/2021 12:00:57 p. m.	El usuario Mochilero Americano ha iniciado sesión en el sistema
+5/10/2021 12:01:21 p. m.	Usuario Mochilero Americano ha creado un recuerdo
+5/10/2021 12:01:53 p. m.	Usuario Mochilero Americano ha actualizado un recuerdo
+5/10/2021 12:03:43 p. m.	Usuario undefined ha eliminado un recuerdo
+5/10/2021 12:03:57 p. m.	Al usuario undefined le ha gustado un recuerdo
+5/10/2021 12:06:40 p. m.	El usuario fabian@mail.com está intentando ingresar al sistema con credenciales inválidas
+5/10/2021 12:06:58 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
+5/10/2021 12:08:47 p. m.	Usuario Mochilero Americano ha creado un recuerdo
+5/10/2021 12:08:58 p. m.	Al usuario undefined le ha gustado un recuerdo
+5/10/2021 12:33:12 p. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de fabian Alejandro
+5/10/2021 12:33:56 p. m.	Al usuario Mochilero Americano le ha gustado un recuerdo de fabian Alejandro
+5/10/2021 12:34:21 p. m.	Usuario Mochilero Americano ha eliminado un recuerdo
+5/10/2021 12:35:40 p. m.	El usuario Mochilero Americano ha cerrado sesión

@@ -2,6 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 
 import PostMessage from '../models/postMessage.js';
+import UserModel from "../models/user.js";
+import { writeLogs } from '../utilities/logs.js';
 
 const router = express.Router();
 
@@ -34,7 +36,7 @@ export const createPost = async (req, res) => {
 
     try {
         await newPostMessage.save();
-
+        writeLogs(new Date(), `Usuario ${req.body.name} ha creado un recuerdo`)
         res.status(201).json(newPostMessage );
     } catch (error) {
         res.status(409).json({ message: error.message });
@@ -51,6 +53,7 @@ export const updatePost = async (req, res) => {
 
     await PostMessage.findByIdAndUpdate(id, updatedPost, { new: true });
 
+    writeLogs(new Date(), `Usuario ${req.body.name} ha actualizado un recuerdo`)
     res.json(updatedPost);
 }
 
@@ -58,9 +61,9 @@ export const deletePost = async (req, res) => {
     const { id } = req.params;
 
     if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
-
+    const post = await PostMessage.findById(id);
     await PostMessage.findByIdAndRemove(id);
-
+    writeLogs(new Date(), `Usuario ${post.name} ha eliminado un recuerdo`)
     res.json({ message: "Post deleted successfully." });
 }
 
@@ -74,6 +77,7 @@ export const likePost = async (req, res) => {
     if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
     
     const post = await PostMessage.findById(id);
+    const user = await UserModel.findById(req.userId);
 
     const index = post.likes.findIndex((id) => id ===String(req.userId));
 
@@ -83,6 +87,7 @@ export const likePost = async (req, res) => {
       post.likes = post.likes.filter((id) => id !== String(req.userId));
     }
     const updatedPost = await PostMessage.findByIdAndUpdate(id, post, { new: true });
+    writeLogs(new Date(), `Al usuario ${user.name} le ha gustado un recuerdo de ${post.name}`)
     res.status(200).json(updatedPost);
 }
 

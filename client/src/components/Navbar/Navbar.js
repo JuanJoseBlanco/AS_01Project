@@ -3,6 +3,7 @@ import { AppBar, Typography, Toolbar, Avatar, Button } from '@material-ui/core';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import decode from 'jwt-decode';
+import { logoutUser } from '../../actions/auth';
 
 import memories from '../../images/memories.png';
 import * as actionType from '../../constants/actionTypes';
@@ -16,7 +17,9 @@ const Navbar = () => {
   const classes = useStyles();
 
   const logout = () => {
-    dispatch({ type: actionType.LOGOUT });
+    
+    // dispatch({ type: actionType.LOGOUT });
+    dispatch(logoutUser(JSON.parse(localStorage.getItem('profile'))))
 
     history.push('/auth');
 

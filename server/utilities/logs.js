@@ -5,6 +5,7 @@ let logger = fs.createWriteStream('log.txt', {
 })
 
 export const writeLogs = (date, message) => {
-    logger.write(date +'\t' +message +'\n')
+    let formatTime = date.toLocaleDateString() +' ' +date.toLocaleTimeString()
+    logger.write(formatTime +'\t' +message +'\n')
 }
 
