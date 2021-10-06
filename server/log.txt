@@ -61,3 +61,12 @@
 5/10/2021 9:51:57 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
 5/10/2021 9:53:07 p. m.	Se cerró la sesión debido a que el tiempo de sesión ha caducado
 5/10/2021 9:53:12 p. m.	El usuario fabian Alejandro ha cerrado sesión
+5/10/2021 10:35:35 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
+5/10/2021 10:37:14 p. m.	El usuario fabian Alejandro ha cerrado sesión
+5/10/2021 10:37:33 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
+5/10/2021 10:38:00 p. m.	Usuario fabian Alejandro ha creado un recuerdo
+5/10/2021 10:38:06 p. m.	Usuario fabian Alejandro ha eliminado un recuerdo
+5/10/2021 10:38:11 p. m.	Usuario fabian Alejandro ha eliminado un recuerdo
+5/10/2021 10:38:23 p. m.	Usuario fabian Alejandro ha actualizado un recuerdo
+5/10/2021 10:38:28 p. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de fabian Alejandro
+5/10/2021 10:38:33 p. m.	Se cerró la sesión debido a que el tiempo ha caducado

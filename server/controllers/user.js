@@ -21,7 +21,6 @@ export const signin = async (req, res) => {
       return res.status(404).json({ message: "El usuario no existe. Intenta con un usuario existente o regístrate en el sistema" });
     } 
 
-
     if(oldUser.attempts >= 5) {
       return res.status(401).json({message: `El usuario ${oldUser.email} se encuentra bloqueado debido a muchos intentos fallidos` })
     }else {
@@ -36,7 +35,7 @@ export const signin = async (req, res) => {
         return res.status(400).json({ message: "Credenciales invalidas. Inténtalo de nuevo" });
       }
 
-      const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, secret, { expiresIn: "10s" });
+      const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, secret, { expiresIn: "1m" });
       writeLogs(new Date(), `El usuario ${oldUser.name} ha iniciado sesión en el sistema`);
       res.status(200).json({ result: oldUser, token });
     }
