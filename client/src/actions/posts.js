@@ -18,7 +18,6 @@ export const createPost = (post) => async (dispatch) => {
 
     dispatch({ type: CREATE, payload: data });
   } catch (error) {
-    console.log("Entrando aquí");
     alert(error.response.data.message)
     dispatch(logoutUser(JSON.parse(localStorage.getItem('profile'))))
     window.location.reload(false);
@@ -29,12 +28,13 @@ export const updatePost = (id, post) => async (dispatch) => {
   try {
     const { data } = await api.updatePost(id, post);
 
-    if(data != undefined){
+    if(data !== undefined){
       dispatch({ type: UPDATE, payload: data });
     }
   } catch (error) {
-    console.log("Entrando");
-    console.log(error);
+    alert(error.response.data.message)
+    dispatch(logoutUser(JSON.parse(localStorage.getItem('profile'))))
+    window.location.reload(false);
   }
 };
 
@@ -46,7 +46,9 @@ export const likePost = (id) => async (dispatch) => {
 
     dispatch({ type: LIKE, payload: data });
   } catch (error) {
-    console.log(error);
+    alert(error.response.data.message)
+    dispatch(logoutUser(JSON.parse(localStorage.getItem('profile'))))
+    window.location.reload(false);
   }
 };
 
@@ -58,6 +60,8 @@ export const deletePost = (id) => async (dispatch) => {
     dispatch({ type: DELETE, payload: id });
     alert("La memoria se ha eliminado con éxito")
   } catch (error) {
-    console.log(error);
+    alert(error.response.data.message)
+    dispatch(logoutUser(JSON.parse(localStorage.getItem('profile'))))
+    window.location.reload(false);
   }
 };

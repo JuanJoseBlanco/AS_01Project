@@ -6,7 +6,6 @@ import decode from 'jwt-decode';
 import { logoutUser } from '../../actions/auth';
 
 import memories from '../../images/memories.png';
-import * as actionType from '../../constants/actionTypes';
 import useStyles from './styles';
 
 const Navbar = () => {
