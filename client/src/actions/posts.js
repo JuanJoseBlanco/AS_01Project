@@ -1,5 +1,6 @@
 import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
 import * as api from '../api/index.js';
+import { logoutUser } from './auth';
 
 export const getPosts = () => async (dispatch) => {
   try {
@@ -17,7 +18,10 @@ export const createPost = (post) => async (dispatch) => {
 
     dispatch({ type: CREATE, payload: data });
   } catch (error) {
-    console.log(error);
+    console.log("Entrando aquí");
+    alert(error.response.data.message)
+    dispatch(logoutUser(JSON.parse(localStorage.getItem('profile'))))
+    window.location.reload(false);
   }
 };
 

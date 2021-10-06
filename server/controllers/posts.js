@@ -39,6 +39,7 @@ export const createPost = async (req, res) => {
         writeLogs(new Date(), `Usuario ${req.body.name} ha creado un recuerdo`)
         res.status(201).json(newPostMessage );
     } catch (error) {
+        console.log("Entra a este error");
         res.status(409).json({ message: error.message });
     }
 }

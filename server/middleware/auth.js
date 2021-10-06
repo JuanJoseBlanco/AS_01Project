@@ -21,6 +21,7 @@ const auth = async (req, res, next) => {
 
     next();
   } catch (error) {
+    res.status(401).json({message: 'La sesión ha caducado. Vuelve a iniciar sesión'})
     console.log(error);
   }
 };
