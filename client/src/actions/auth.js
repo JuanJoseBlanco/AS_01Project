@@ -10,7 +10,6 @@ export const signin = (formData, router) => async (dispatch) => {
 
     router.push('/');
   } catch (error) {
-    console.log("Entra en error");
     console.log(error.response.data.message);
     alert(error.response.data.message)
   }
@@ -26,6 +25,7 @@ export const signup = (formData, router) => async (dispatch) => {
     router.push('/');
   } catch (error) {
     console.log(error);
+    alert(error.response.data.message);
   }
 };
 

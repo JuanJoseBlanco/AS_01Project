@@ -21,7 +21,7 @@ export const signin = async (req, res) => {
       return res.status(404).json({ message: "El usuario no existe. Intenta con un usuario existente o regístrate en el sistema" });
     } 
 
-    if(oldUser.attempts >= 5) {
+    if(oldUser.attempts >= 3) {
       return res.status(401).json({message: `El usuario ${oldUser.email} se encuentra bloqueado debido a muchos intentos fallidos` })
     }else {
       const isPasswordCorrect = await bcrypt.compare(password, oldUser.password);
@@ -31,6 +31,9 @@ export const signin = async (req, res) => {
 
         await UserModal.findOneAndUpdate({_id: oldUser._id}, {$inc: {attempts: 1}});
 
+        if(oldUser.attempts == 2){
+          writeLogs(new Date(), 'Se ha bloqueado al usuario ' +oldUser.name +' por muchos intentos fallidos en el inicio de sesión')
+        }
 
         return res.status(400).json({ message: "Credenciales invalidas. Inténtalo de nuevo" });
       }

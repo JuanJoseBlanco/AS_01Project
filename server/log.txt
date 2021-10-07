@@ -1,72 +1,24 @@
-5/10/2021 11:55:33 a. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 11:56:01 a. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 11:58:25 a. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 11:59:21 a. m.	El usuario Mochilero Americano se ha registrado en el sistema
-5/10/2021 12:00:57 p. m.	El usuario Mochilero Americano ha iniciado sesión en el sistema
-5/10/2021 12:01:21 p. m.	Usuario Mochilero Americano ha creado un recuerdo
-5/10/2021 12:01:53 p. m.	Usuario Mochilero Americano ha actualizado un recuerdo
-5/10/2021 12:03:43 p. m.	Usuario undefined ha eliminado un recuerdo
-5/10/2021 12:03:57 p. m.	Al usuario undefined le ha gustado un recuerdo
-5/10/2021 12:06:40 p. m.	El usuario fabian@mail.com está intentando ingresar al sistema con credenciales inválidas
-5/10/2021 12:06:58 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 12:08:47 p. m.	Usuario Mochilero Americano ha creado un recuerdo
-5/10/2021 12:08:58 p. m.	Al usuario undefined le ha gustado un recuerdo
-5/10/2021 12:33:12 p. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de fabian Alejandro
-5/10/2021 12:33:56 p. m.	Al usuario Mochilero Americano le ha gustado un recuerdo de fabian Alejandro
-5/10/2021 12:34:21 p. m.	Usuario Mochilero Americano ha eliminado un recuerdo
-5/10/2021 12:35:40 p. m.	El usuario Mochilero Americano ha cerrado sesión
-5/10/2021 5:23:29 p. m.	El usuario Mochilero Asiático se ha registrado en el sistema
-5/10/2021 5:52:16 p. m.	El usuario fabian@mail.com está intentando ingresar al sistema con credenciales inválidas
-5/10/2021 6:00:35 p. m.	El usuario Viajero Europeo se ha registrado en el sistema
-5/10/2021 6:02:25 p. m.	El usuario europeo@mail.com está intentando ingresar al sistema con credenciales inválidas
-5/10/2021 6:06:29 p. m.	El usuario europeo@mail.com está intentando ingresar al sistema con credenciales inválidas
-5/10/2021 6:06:47 p. m.	El usuario europeo@mail.com está intentando ingresar al sistema con credenciales inválidas
-5/10/2021 6:08:28 p. m.	El usuario europeo@mail.com está intentando ingresar al sistema con credenciales inválidas
-5/10/2021 6:16:28 p. m.	El usuario europeo@mail.com está intentando ingresar al sistema con credenciales inválidas
-5/10/2021 6:16:48 p. m.	El usuario europeo@mail.com está intentando ingresar al sistema con credenciales inválidas
-5/10/2021 6:35:55 p. m.	Se está intentando ingresar al sistema con un correo no registrado en la base de datos
-5/10/2021 8:05:59 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:09:14 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 8:10:42 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:10:42 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:10:42 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:10:42 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:10:43 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:10:43 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:31:35 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 8:31:59 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:33:07 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 8:33:32 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:38:51 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 8:39:26 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:45:31 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:45:49 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 8:47:11 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:47:35 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 8:48:46 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:49:55 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 8:53:41 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 8:53:47 p. m.	Usuario fabian Alejandro ha creado un recuerdo
-5/10/2021 8:54:04 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 9:29:45 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 9:30:37 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 9:39:15 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 9:39:32 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 9:41:45 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 9:42:40 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 9:43:06 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 9:43:36 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 9:48:49 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 9:49:18 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 9:51:57 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 9:53:07 p. m.	Se cerró la sesión debido a que el tiempo de sesión ha caducado
-5/10/2021 9:53:12 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 10:35:35 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 10:37:14 p. m.	El usuario fabian Alejandro ha cerrado sesión
-5/10/2021 10:37:33 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
-5/10/2021 10:38:00 p. m.	Usuario fabian Alejandro ha creado un recuerdo
-5/10/2021 10:38:06 p. m.	Usuario fabian Alejandro ha eliminado un recuerdo
-5/10/2021 10:38:11 p. m.	Usuario fabian Alejandro ha eliminado un recuerdo
-5/10/2021 10:38:23 p. m.	Usuario fabian Alejandro ha actualizado un recuerdo
-5/10/2021 10:38:28 p. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de fabian Alejandro
-5/10/2021 10:38:33 p. m.	Se cerró la sesión debido a que el tiempo ha caducado
+6/10/2021 8:38:52 p. m.	El usuario Fabian Cristancho se ha registrado en el sistema
+6/10/2021 8:39:08 p. m.	El usuario Fabian Cristancho ha iniciado sesión en el sistema
+6/10/2021 8:40:05 p. m.	Usuario Fabian Cristancho ha creado un recuerdo
+6/10/2021 8:40:49 p. m.	Se cerró la sesión debido a que el tiempo ha caducado
+6/10/2021 8:40:59 p. m.	El usuario Fabian Cristancho ha cerrado sesión
+6/10/2021 8:41:21 p. m.	El usuario Fabian Cristancho ha iniciado sesión en el sistema
+6/10/2021 8:42:00 p. m.	Usuario Fabian Cristancho ha creado un recuerdo
+6/10/2021 8:42:06 p. m.	El usuario Fabian Cristancho ha cerrado sesión
+6/10/2021 8:42:19 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
+6/10/2021 8:42:25 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
+6/10/2021 8:42:30 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
+6/10/2021 8:42:34 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
+6/10/2021 8:42:38 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
+6/10/2021 8:43:02 p. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
+6/10/2021 8:43:05 p. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de Fabian Cristancho
+6/10/2021 8:43:06 p. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de Fabian Cristancho
+6/10/2021 8:43:46 p. m.	Usuario fabian Alejandro ha creado un recuerdo
+6/10/2021 8:43:57 p. m.	Usuario fabian Alejandro ha actualizado un recuerdo
+6/10/2021 8:44:04 p. m.	Se cerró la sesión debido a que el tiempo ha caducado
+6/10/2021 8:44:07 p. m.	El usuario fabian Alejandro ha cerrado sesión
+6/10/2021 8:53:36 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
+6/10/2021 8:53:43 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
+6/10/2021 8:53:48 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
+6/10/2021 8:53:48 p. m.	Se ha bloqueado al usuario Fabian Cristancho
