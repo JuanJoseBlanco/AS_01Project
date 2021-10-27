@@ -22,3 +22,34 @@
 6/10/2021 8:53:43 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
 6/10/2021 8:53:48 p. m.	El usuario fabian2@mail.com está intentando ingresar al sistema con credenciales inválidas
 6/10/2021 8:53:48 p. m.	Se ha bloqueado al usuario Fabian Cristancho
+7/10/2021 8:26:52 a. m.	El usuario Viajero Americano se ha registrado en el sistema
+7/10/2021 8:27:20 a. m.	El usuario Viajero Americano ha iniciado sesión en el sistema
+7/10/2021 8:28:18 a. m.	Al usuario Viajero Americano le ha gustado un recuerdo de Fabian Cristancho
+7/10/2021 8:28:21 a. m.	Se cerró la sesión debido a que el tiempo ha caducado
+7/10/2021 8:28:26 a. m.	El usuario Viajero Americano ha cerrado sesión
+7/10/2021 9:09:20 a. m.	El usuario Juan Blanco se ha registrado en el sistema
+7/10/2021 9:10:00 a. m.	El usuario Juan Blanco ha iniciado sesión en el sistema
+7/10/2021 9:10:36 a. m.	Usuario Juan Blanco ha creado un recuerdo
+7/10/2021 9:10:40 a. m.	Al usuario Juan Blanco le ha gustado un recuerdo de Fabian Cristancho
+7/10/2021 9:10:43 a. m.	Al usuario Juan Blanco le ha gustado un recuerdo de Fabian Cristancho
+7/10/2021 9:10:46 a. m.	Usuario Juan Blanco ha eliminado un recuerdo
+7/10/2021 9:11:14 a. m.	Se cerró la sesión debido a que el tiempo ha caducado
+7/10/2021 9:11:22 a. m.	El usuario Juan Blanco ha cerrado sesión
+7/10/2021 9:11:43 a. m.	El usuario Juan Blanco ha iniciado sesión en el sistema
+7/10/2021 9:12:07 a. m.	Usuario Juan Blanco ha creado un recuerdo
+7/10/2021 9:12:17 a. m.	Usuario Juan Blanco ha actualizado un recuerdo
+7/10/2021 9:12:22 a. m.	Al usuario Juan Blanco le ha gustado un recuerdo de Juan Blanco
+7/10/2021 9:12:25 a. m.	Usuario Juan Blanco ha eliminado un recuerdo
+7/10/2021 9:12:42 a. m.	El usuario Juan Blanco ha cerrado sesión
+7/10/2021 9:13:00 a. m.	El usuario juan@mail.com está intentando ingresar al sistema con credenciales inválidas
+7/10/2021 9:13:08 a. m.	El usuario juan@mail.com está intentando ingresar al sistema con credenciales inválidas
+7/10/2021 9:13:12 a. m.	El usuario juan@mail.com está intentando ingresar al sistema con credenciales inválidas
+7/10/2021 9:13:12 a. m.	Se ha bloqueado al usuario Juan Blanco por muchos intentos fallidos en el inicio de sesión
+7/10/2021 9:15:35 a. m.	El usuario fabian Alejandro ha iniciado sesión en el sistema
+7/10/2021 9:15:57 a. m.	Usuario fabian Alejandro ha creado un recuerdo
+7/10/2021 9:16:00 a. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de fabian Alejandro
+7/10/2021 9:16:03 a. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de Fabian Cristancho
+7/10/2021 9:16:06 a. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de Fabian Cristancho
+7/10/2021 9:16:33 a. m.	Al usuario fabian Alejandro le ha gustado un recuerdo de Fabian Cristancho
+7/10/2021 9:16:40 a. m.	Se cerró la sesión debido a que el tiempo ha caducado
+7/10/2021 9:16:47 a. m.	El usuario fabian Alejandro ha cerrado sesión
